@@ -12,8 +12,23 @@
   padding: 0;
 }
 .cabecera {
-  max-width: 155px;
+  display: flex;
+  flex-direction: column;
+}
+.cabecera-inner {
+  max-width: 320px;
+}
+.logo {
+}
+.principal {
+  /* width: 100vw; */
+  height: 100vh;
+  background-color: #3cdbc0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .titulo {
-  font-size: 30px; /* 30px = 1.875rem */ /* 40px = 2.5rem */
+  font-size: 1.875rem; /* 40px = 2.5rem * para @media */
+  color: #ffffff;
 }
