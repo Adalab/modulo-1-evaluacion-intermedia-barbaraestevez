@@ -45,6 +45,7 @@ a {
 .titulo {
   font-size: 1.875rem;
   color: #ffffff;
+  text-transform: capitalize;
   text-align: center;
   font-weight: bold;
 }
