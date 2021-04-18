@@ -46,10 +46,11 @@ body {
 }
 .title {
   font-size: 30px;
-  color: #ffffff;
+  color: #fff;
   text-transform: capitalize;
   text-align: center;
   font-weight: bold;
+  word-spacing: 100vw;
 }
 
 @media all and (min-width: 768px) {
