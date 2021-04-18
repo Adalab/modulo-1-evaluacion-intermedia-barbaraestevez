@@ -27,12 +27,8 @@ body {
   align-items: center;
 }
 .logo {
-  justify-content: center;
-  margin: 10px;
-}
-.menu {
-  display: flex;
-  justify-content: space-between;
+  width: 155px;
+  padding: 10px;
 }
 .menu-list {
   list-style-type: none;
@@ -43,7 +39,6 @@ body {
   display: block;
   color: #4a4a4a;
   text-decoration: none;
-  color: #4a4a4a;
   text-transform: uppercase;
   padding: 0 10px 13px 10px;
 }
