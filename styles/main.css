@@ -3,12 +3,22 @@
   font-size: 16px;
 }
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+body {
+  margin: 0;
+}
 .cabecera {
-  max-width: 320px;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  text-align: center;
 }
 .cabecera-inner {
   display: flex;
@@ -23,16 +33,19 @@
 .menu {
   display: flex;
   justify-content: space-between;
-  margin: 0 0 13px 0;
 }
 .menu-list {
-  text-transform: uppercase;
-  list-style: none;
-  display: inline-block;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
-a {
+.menu-link {
+  display: block;
+  color: #4a4a4a;
   text-decoration: none;
   color: #4a4a4a;
+  text-transform: uppercase;
+  padding: 0 10px 13px 10px;
 }
 .principal {
   width: 100vw;
